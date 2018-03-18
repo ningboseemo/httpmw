@@ -1,0 +1,39 @@
+{
+  "name": "@qnpm/httpmw",
+  "version": "1.0.8",
+  "description": "浏览器端的HTTP中间件",
+  "main": "./dist/httpmw.js",
+  "scripts": {
+    "test": "mocha ./test/index.js",
+    "build": "webpack --config build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.skyeye.world:skyeyeWeb/HttpMW.git"
+  },
+  "keywords": [
+    "http",
+    "middleware",
+    "browser"
+  ],
+  "author": "huangxin@b.360.cn",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^5.2.3",
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "blueimp-md5": "^2.10.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "express": "^4.16.2",
+    "mocha": "^3.5.3",
+    "webpack": "^3.6.0"
+  },
+  "_from": "@qnpm/httpmw@1.0.8",
+  "_resolved": "http://10.95.24.22:5010/@qnpm/httpmw/download/@qnpm/httpmw-1.0.8.tgz"
+}
